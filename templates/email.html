@@ -1,0 +1,12 @@
+<html>
+  <head></head>
+  <body>
+    <h1>Hola {{ user }}</h1>
+
+    {% if status %}
+        {% include 'success.html' %}
+    {% else %}
+        {% include 'error.html' %}
+    {% endif %}
+  </body>
+</html>
