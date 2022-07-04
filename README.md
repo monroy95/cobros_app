@@ -17,6 +17,12 @@ source virtual_env_name/bin/activate
 ```
 
 ### Instalar dependencias
+**Haga un clon del repositorio**
+```bash
+git clone https://github.com/monroy95/cobros_app.git
+```
+
+**Ingrese al directorio reciendo clonado y ejecute**
 ```bash
 pip install -r requirements.txt
 ```
